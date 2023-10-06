@@ -16,7 +16,7 @@ function Student(props) {
     useEffect(() => {
         updateDisplayedUsers();
     }, [users, currentPage, perPageUser]);
-
+console.log("Samdhu");
     return (
         <div className="container">
             <table className="table table-striped table-bordered">
